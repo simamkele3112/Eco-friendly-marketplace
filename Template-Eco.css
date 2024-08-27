@@ -36,13 +36,15 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: blue;
     text-decoration: none;
     font-size: 18px;
+    box-shadow: 3px 3px 4px orange;
+
 }
 
 nav ul li a:hover {
-    color: cyan;
+    color:white;
 }
 
 /* Main content styles */
