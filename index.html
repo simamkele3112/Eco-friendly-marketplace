@@ -1,104 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Eco friendly market place</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.0.0/css/all.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-friendly Market Place</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link href="./styles/main.css" rel="stylesheet">
+    <!-- Updated Font Awesome link -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
 </head>
+
 <body>
 
-  <!---Header content of our website-->
-  <header class=" bg-success txt-dark">
-
-   <i class="fa-solid fa-user"></i>
-   <nav class="navbar navbar-expand-lg navbar-light bg-success">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="ff" alt="">Eco</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sell</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
+    <!---Header content of our website-->
+    <header class="bg-success text-white">
+    
+        <nav class="navbar navbar-expand-lg navbar-light bg-success">
       
-          </ul>
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#">
+                    <!-- Font Awesome icon -->
+                    <i class="fas fa-leaf"></i> Eco Friendly Market Place
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Sell</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Buy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <i class="fas fa-user fs-3  "></i>
+            </div>
+
+        </nav>
+
+        <hr class="text-white">
+
+        <div class="second-nav d-flex justify-content-between align-items-center g-3 container-fluid pb-3">
+
+            <div class="dropdowns d-flex">
+                <div class="dropdown me-3">
+                    <a class="btn btn-dark dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Filter
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Price low - Price High</a></li>
+                        <li><a class="dropdown-item" href="#">Most Relevant</a></li>
+                        <li><a class="dropdown-item" href="#">Recommended</a></li>
+                    </ul>
+                </div>
+
+                <div class="dropdown">
+                    <a class="btn  btn-dark btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                       Catagories
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Electronics</a></li>
+                        <li><a class="dropdown-item" href="#">Furniture</a></li>
+                        <li><a class="dropdown-item" href="#">Clothes</a></li>
+                        <li><a class="dropdown-item" href="#">Cars</a></li>
+                        <li><a class="dropdown-item" href="#">Machinery</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--- Search button and input field -->
+            <div class="input-group w-50">
+                <input type="text" class="form-control" placeholder="Search for items" aria-label="Search">
+                <button class="btn btn-outline-dark" type="button">Search</button>
+            </div>
+
+            <!--- Location -->
+            <a href="#" target="_blank" class="text-white">
+                <i class="fas fa-map-marker-alt"></i> Cape Town
+            </a>
+
         </div>
-      </div>
-    </nav>
+    </header>
 
-    <hr class="txt-dark ">
+    <!---Main content of our website-->
+    <main></main>
 
+    <!---Footer content of our website-->
+    <footer></footer>
 
- 
-  <div class="second-nav   d-flex g-3">
-
-   
-  <div class="dropdowns">
-
-    <div class="dropdown">
-      <a class="btn btn-dark dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-        filter
-      </a>
-    
-      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-        <li><a class="dropdown-item" href="#">Action</a></li>
-        <li><a class="dropdown-item" href="#">Another action</a></li>
-        <li><a class="dropdown-item" href="#">Something else here</a></li>
-      </ul>
-    </div>
-
-    <div class="dropdown">
-      <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-        Dropdown link
-      </a>
-    
-      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-        <li><a class="dropdown-item" href="#">Action</a></li>
-        <li><a class="dropdown-item" href="#">Another action</a></li>
-        <li><a class="dropdown-item" href="#">Something else here</a></li>
-      </ul>
-    </div>
-
-  </div>
-    
-      <!---search button-->
-      <div class="input-group mb-3 w-25">
-        <div class="input-group-prepend">
-          <button class="btn btn-outline-dark" type="button">Button</button>
-        </div>
-        <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
-      </div>
-      
-   
-
-         <!---location-->
-
-          <a href="#" target="_blank"> <i class="fa-solid fa-location-dot"></i>  Cape Town </a>
-
-        </div>
-
-  </header>
-  
-  <!---main content of our website-->
-  <main></main>
-
-
-  <!---main content of our website-->
-  <footer></footer>
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Bootstrap and necessary JS libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
